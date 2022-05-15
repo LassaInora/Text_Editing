@@ -1,0 +1,44 @@
+╔══════════╦══════════╦════════════════════════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════════════╗
+║  \033[#m ║ IntelliJ ║                    Effet                   ║                                             Remarque                                            ║
+╠══════════╬══════════╬════════════════════════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════════════╣
+║    0     ║   [o]    ║           Réinitialiser / Normal           ║                                  tous les attributs désactivés                                  ║
+║    1     ║   [o]    ║          Gras ou intensité accrue          ║                                                                                                 ║
+║    2     ║   [x]    ║         Faible (intensité réduite)         ║                                  Pas largement pris en charge.                                  ║
+║    3     ║   [o]    ║                  Italique                  ║                   Pas largement pris en charge. Parfois traité comme inverse.                   ║
+║    4     ║   [o]    ║                  Souligné                  ║                                                                                                 ║
+║    5     ║   [x]    ║              Clignotement lent             ║                                     moins de 150 par minute                                     ║
+║    6     ║   [x]    ║             Clignotement rapide            ║                  MS-DOS ANSI.SYS; 150+ par minute; pas largement pris en charge                 ║
+║    7     ║   [o]    ║             [[vidéo inversée]]             ║                     échanger les couleurs de premier plan et d'arrière-plan                     ║
+║    8     ║   [x]    ║                 Dissimuler                 ║                                  Pas largement pris en charge.                                  ║
+║    9     ║   [o]    ║                    Barré                   ║        Caractères lisibles, mais marqués pour suppression. Pas largement pris en charge.        ║
+║    10    ║   [x]    ║       Police principale (par défaut)       ║                                                                                                 ║
+║   11–19  ║   [x]    ║             Police alternative             ║                            Sélectionner une police alternative `n-10`                           ║
+║    20    ║   [x]    ║                   Fraktur                  ║                                  presque jamais pris en charge                                  ║
+║    21    ║   [o]    ║    Gras désactivé ou double soulignement   ║ Gras désactivé n'est pas largement pris en charge; double soulignement presque jamais supporté. ║
+║    22    ║   [x]    ║        Couleur ou intensité normale        ║                                         Ni gras ni pâle                                         ║
+║    23    ║   [o]    ║        Pas en italique, pas Fraktur        ║                                                                                                 ║
+║    24    ║   [o]    ║             Souligné désactivé             ║                               Pas de soulignement simple ou double                              ║
+║    25    ║   [x]    ║             Clignotement éteint            ║                                                                                                 ║
+║    27    ║   [o]    ║              Inverse désactivé             ║                                                                                                 ║
+║    28    ║   [x]    ║                   Révéler                  ║                                             masquer                                             ║
+║    29    ║   [o]    ║                  Non barré                 ║                                                                                                 ║
+║   30–37  ║   [o]    ║     Définir la couleur de premier plan     ║                             Voir le tableau des couleurs ci-dessous                             ║
+║    38    ║   [o]    ║     Définir la couleur de premier plan     ║                 Les arguments suivants sont `5;n` ou `2;r;g;b`, voir ci-dessous                 ║
+║    39    ║   [o]    ║     Couleur de premier plan par défaut     ║                              mise en œuvre définie (selon la norme)                             ║
+║   40–47  ║   [o]    ║     Définir la couleur d'arrière-plan      ║                             Voir le tableau des couleurs ci-dessous                             ║
+║    48    ║   [o]    ║     Définir la couleur d'arrière-plan      ║                 Les arguments suivants sont `5;n` ou `2;r;g;b`, voir ci-dessous                 ║
+║    49    ║   [o]    ║         Couleur de fond par défaut         ║                             implémentation définie (selon la norme)                             ║
+║    51    ║   [o]    ║                   Encadré                  ║                                                                                                 ║
+║    52    ║   [o]    ║                  Encerclé                  ║                                                                                                 ║
+║    53    ║   [x]    ║                  Surligné                  ║                                                                                                 ║
+║    54    ║   [o]    ║           Non encadré ou encerclé          ║                                                                                                 ║
+║    55    ║   [x]    ║                Non souligné                ║                                                                                                 ║
+║    60    ║   [x]    ║             idéogramme souligné            ║                                     presque jamais supporté                                     ║
+║    61    ║   [x]    ║         idéogramme double souligné         ║                                     presque jamais supporté                                     ║
+║    62    ║   [x]    ║             idéogramme surligné            ║                                     presque jamais supporté                                     ║
+║    63    ║   [x]    ║       idéogramme double surlignement       ║                                     presque jamais supporté                                     ║
+║    64    ║   [x]    ║             idéogramme accentué            ║                                     presque jamais supporté                                     ║
+║    65    ║   [x]    ║      attributs d'idéogramme désactivés     ║                            réinitialiser les effets de tous les 60-64                           ║
+║   90–97  ║   [x]    ║ Définir une couleur de premier plan claire ║                                   aixterm (pas dans la norme)                                   ║
+║  100–107 ║   [x]    ║  Définir une couleur d'arrière-plan claire ║                                   aixterm (pas dans la norme)                                   ║
+╚══════════╩══════════╩════════════════════════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════════════╝
